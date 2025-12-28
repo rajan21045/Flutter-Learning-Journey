@@ -11,11 +11,12 @@ void main() {
 
 
   // Map with type inference (String keys, int values)
-  var inventory = {
-    'name1': 'Rajan Poudel',
-    'name2': 'Ashok Poudel',
-    'name3': 'Dhruv Rathee',
-  };
+  Map<String, String> inventory = {
+  'name1': 'Rajan Poudel',
+  'name2': 'Ashok Poudel',
+  'name3': 'Dhruv Rathee',
+};
+
 
   print(
     inventory,
@@ -47,3 +48,4 @@ void main() {
     print('${entry.key} has ${entry.value} items');
   }
 }
+
