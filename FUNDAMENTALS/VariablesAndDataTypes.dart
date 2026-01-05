@@ -8,7 +8,7 @@ void main() {
   print("Age: $age");
   print("Height: $height");
   print("Is Student: $isStudent");
-
+  
   //Type Inference using var
   //Once assigned, the type cannot change.
   var age2 = 20;
@@ -16,3 +16,4 @@ void main() {
   print("Name2: $name2");
   print("Age2: $age2");
 }
+
