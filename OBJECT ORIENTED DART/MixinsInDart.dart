@@ -5,7 +5,7 @@ A mixin is a way to reuse a class’s functionality in multiple class hierarchie
   2. It solves the problem of multiple inheritance, which Dart does not support.
   3. You can apply multiple mixins to a single class.
 Think of a mixin as a behavior provider, not a full-fledged class.
-
+ 
 Why Use Mixins?
 Dart allows a class to extend only one superclass:
   class Child extends Parent {}
