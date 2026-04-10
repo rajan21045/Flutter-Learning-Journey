@@ -5,7 +5,7 @@ void main() {
   stdout.write("Enter Your Age: ");
   int age = int.parse(stdin.readLineSync()!);
   print("Your Age Is ${age}");
-
+ 
   // Taking Input From User (String)
   stdout.write("Enter Your Name: ");
   String? name = stdin.readLineSync(); //stdin.readLineSync() reads a full line from the keyboard. The return type is String? (nullable), so handle it carefully in production code.
