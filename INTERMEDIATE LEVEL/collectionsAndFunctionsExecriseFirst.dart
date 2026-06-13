@@ -4,7 +4,7 @@ Map<String, int> records = {};
 Map<String, int> phonenumber = {};
 List<int> lists = [];
 List<int> lists1 = [];
-
+ 
 void main() {
   //1. Write a Dart program to manage student records using a map and functions (add, display).
   studentRecord();
